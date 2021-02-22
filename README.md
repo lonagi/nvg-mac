@@ -25,3 +25,9 @@ Next setup:
 3. Telegram
 4. Sublime Text
 5. Zoom
+6. Discord
+7. UnityHub
+8. CyberDuck
+9. Jetbrains Toolbox + XCode
+10. Tor
+11. Parallels
