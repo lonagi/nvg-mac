@@ -1,4 +1,4 @@
-# nvg-mac
+# NVG-mac
 NVG OS X
 
 ### Getting Started
@@ -14,16 +14,25 @@ sudo install.zsh
 Setup:  
 1. Google Chrome
 2. ITerm
-  
-System settings  
-Setting SSH  
-Apple ID  
+
+Do:  
+1. System settings  
+2. Setting SSH  
+3. Apple ID  
   
 Next setup:  
 1. NordVPN
 2. Github Desktop
 3. Telegram
 4. Sublime Text
+
+
+Sublime setup  
+```
+sudo mkdir -p /usr/local/bin
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl 
+```
+
 5. Zoom
 6. Discord
 7. UnityHub
@@ -31,3 +40,5 @@ Next setup:
 9. Jetbrains Toolbox + XCode
 10. Tor
 11. Parallels
+12. Team Viewer
+13. PokerStars
