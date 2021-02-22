@@ -12,8 +12,16 @@ sudo install.zsh
 ### Manual Addition
 
 Setup:  
+1. Google Chrome
+2. ITerm
+  
+System settings  
+Setting SSH  
+Apple ID  
+  
+Next setup:  
 1. NordVPN
 2. Github Desktop
 3. Telegram
-4.
-5.
+4. Sublime Text
+5. Zoom
