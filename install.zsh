@@ -12,4 +12,6 @@ nvg install coreutils
 nvg install curl htop neofetch lolcat cmake python3 ffmpeg unzip wget
 pip3 install weboa
 
-pip3 install weboa
+#Beatf
+sudo wget https://raw.githubusercontent.com/lonagi/my-linux/main/etc/motd -o /etc/motd.sh
+echo 'cat /etc/motd.sh | lolcat' >> ~/.zsh/.zshrc
