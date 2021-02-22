@@ -7,10 +7,12 @@ sudo mkdir -p /usr/local/bin
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl 
 
 #Install HomeBrew as NVG
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HE..)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 export PATH=/opt/homebrew/bin:$PATH 
-echo '\nalias nvg="brew"' >> .zshrc
+echo '\nalias nvg="brew"' >> ~/.zshrc
 nvg install coreutils
 
 #Instal some soft
-nvg install curl htop neofetch lolcat  cmake python3  ffmpeg unzip
+nvg install curl htop neofetch lolcat cmake python3 ffmpeg unzip
+
+pip3 install weboa
