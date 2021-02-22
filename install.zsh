@@ -9,6 +9,7 @@ echo '\nalias nvg="brew"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 nvg install coreutils
 
 #Instal some soft
-nvg install curl htop neofetch lolcat cmake python3 ffmpeg unzip
+nvg install curl htop neofetch lolcat cmake python3 ffmpeg unzip wget
+pip3 install weboa
 
 pip3 install weboa
