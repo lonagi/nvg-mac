@@ -2,14 +2,10 @@
 xcode-select —install
 zsh <(curl -Ls https://git.modder.pw/mcmodder/dotfiles-patches/raw/master/install.zsh)
 
-#Sublime Text
-sudo mkdir -p /usr/local/bin
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl 
-
 #Install HomeBrew as NVG
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-export PATH=/opt/homebrew/bin:$PATH 
-echo '\nalias nvg="brew"' >> ~/.zshrc
+echo "\nexport PATH=/opt/homebrew/bin:$PATH" >> ~/.zsh/.zshrc.d/30-zsh.zsh
+echo '\nalias nvg="brew"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 nvg install coreutils
 
 #Instal some soft
