@@ -1,3 +1,7 @@
+#Install Awesome ZSH
+xcode-select —install
+zsh <(curl -Ls https://git.modder.pw/mcmodder/dotfiles-patches/raw/master/install.zsh)
+
 #Sublime Text
 sudo mkdir -p /usr/local/bin
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl 
