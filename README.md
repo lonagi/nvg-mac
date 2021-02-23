@@ -39,6 +39,7 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 8. CyberDuck
 9. Jetbrains Toolbox + XCode
 10. Tor
-11. Parallels
-12. Team Viewer
-13. PokerStars
+11. Team Viewer
+12. PokerStars
+13. Skitch
+14. VirtualBox
