@@ -29,3 +29,8 @@ sudo mv phpMyAdmin-5.0.4-all-languages /opt/phpmyadmin
 echo '\nalias phpmyadmin="/usr/bin/php -S localhost:8001 -t /opt/phpmyadmin"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 echo '\nalias nphpmyadmin="nohup /usr/bin/php -S localhost:8001 -t /opt/phpmyadmin &"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 cp /opt/phpmyadmin/config.sample.inc.php /opt/phpmyadmin/config.inc.php
+
+#Javascript
+nvg install node
+npm install -g svgo
+
