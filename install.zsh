@@ -39,5 +39,15 @@ nvg install node
 npm install -g svgo
 
 #Python
+pip3 install notebook==5.7.8 pybind11
 nvg install numpy miniforge
 #softwareupdate --install-rosetta
+git clone https://github.com/pandas-dev/pandas /tmp/pandas
+git clone https://github.com/scipy/scipy.git /tmp/scipy
+pip3 install /tmp/pandas/ --no-binary :all: --no-use-pep517
+cd /tmp/scipy
+python3 setup.py build & python3 setup.py install
+cd ~
+rm -rf /tmp/pandas /tmp/scipy
+pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash
+
