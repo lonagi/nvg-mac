@@ -46,9 +46,9 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 10. Tor
 11. Team Viewer
 12. PokerStars
-13. Skitch
-14. VirtualBox (Parallels)
-15. GIMP
+13. VirtualBox (Parallels)
+14. GIMP
+15. Postman
 
 Set in phpmyadmin/config.inc.php:  
 ```
