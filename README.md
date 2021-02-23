@@ -9,6 +9,11 @@ Run installer
 sudo install.zsh
 ```
 
+### Keys
+
+Parallels:  
+`QBP4PG-5SMPTH-KCMPVR-NE2S47-429DSZ`  
+
 ### Manual Addition
 
 Setup:  
@@ -42,4 +47,11 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 11. Team Viewer
 12. PokerStars
 13. Skitch
-14. VirtualBox
+14. VirtualBox (Parallels)
+15. GIMP
+
+Set in phpmyadmin/config.inc.php:  
+```
+$cfg['Servers'][$i]['host'] = '127.0.0.1';
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
+```
