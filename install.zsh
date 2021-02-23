@@ -5,6 +5,7 @@ zsh <(curl -Ls https://git.modder.pw/mcmodder/dotfiles-patches/raw/master/instal
 #Install HomeBrew as NVG
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo "\nexport PATH=/opt/homebrew/bin:$PATH" >> ~/.zsh/.zshrc.d/30-zsh.zsh
+echo "\nexport PATH=~/opt/anaconda3/bin:$PATH" >> ~/.zsh/.zshrc.d/30-zsh.zsh
 echo '\nalias nvg="brew"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 echo '\nalias ls="ls -aLF"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 rm -rf ~/.zsh/.zshrc.d/90-colorize.zsh
@@ -37,3 +38,6 @@ cp /opt/phpmyadmin/config.sample.inc.php /opt/phpmyadmin/config.inc.php
 nvg install node
 npm install -g svgo
 
+#Python
+nvg install numpy miniforge
+#softwareupdate --install-rosetta
