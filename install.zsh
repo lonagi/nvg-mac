@@ -12,6 +12,12 @@ nvg install coreutils
 nvg install curl htop neofetch lolcat cmake python3 ffmpeg unzip wget
 pip3 install weboa
 
-#Beatf
-sudo wget https://raw.githubusercontent.com/lonagi/my-linux/main/etc/motd -o /etc/motd.sh
+#Beatf & cfgs
+sudo wget https://raw.githubusercontent.com/lonagi/my-linux/main/etc/motd -O /etc/motd.sh
 echo 'cat /etc/motd.sh | lolcat' >> ~/.zsh/.zshrc
+sudo wget "https://raw.githubusercontent.com/lonagi/fsociety/master/12.%20Configs/php.ini" -O /etc/php.ini
+nvg install pkg-config zlib
+
+sudo mv composer.phar /usr/local/bin/composer
+curl -sS https://getcomposer.org/installer | php
+nvg install mysql
