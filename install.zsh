@@ -51,5 +51,10 @@ python3 setup.py build & python3 setup.py install
 cd ~
 rm -rf /tmp/pandas /tmp/scipy
 pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper
+#OpenCV
+conda create --name opencv
+conda activate /opt/homebrew/Caskroom/miniforge/base/envs/opencv
+pip install opencv-python
+conda deactivate
 
 
