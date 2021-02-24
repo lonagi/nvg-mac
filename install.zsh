@@ -40,6 +40,7 @@ npm install -g svgo
 
 #Python
 pip3 install notebook==5.7.8 pybind11
+pip3 install --upgrade pyinstaller
 nvg install numpy miniforge
 #softwareupdate --install-rosetta
 git clone https://github.com/pandas-dev/pandas /tmp/pandas
@@ -49,5 +50,6 @@ cd /tmp/scipy
 python3 setup.py build & python3 setup.py install
 cd ~
 rm -rf /tmp/pandas /tmp/scipy
-pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash
+pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper
+
 
