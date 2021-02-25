@@ -8,6 +8,8 @@ echo "\nexport PATH=/opt/homebrew/bin:$PATH" >> ~/.zsh/.zshrc.d/30-zsh.zsh
 echo "\nexport PATH=~/opt/anaconda3/bin:$PATH" >> ~/.zsh/.zshrc.d/30-zsh.zsh
 echo '\nalias nvg="brew"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 echo '\nalias ls="ls -aLF"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
+echo '\nalias python38="/opt/homebrew/opt/python@3.8/bin/python3"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
+echo '\nalias pip38="/opt/homebrew/opt/python@3.8/bin/pip3"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 rm -rf ~/.zsh/.zshrc.d/90-colorize.zsh
 echo '\nalias grep="grep --color"' >> ~/.zsh/.zshrc.d/90-colorize.zsh
 nvg install coreutils
@@ -53,8 +55,10 @@ rm -rf /tmp/pandas /tmp/scipy
 pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper
 #OpenCV
 conda create --name opencv
+source ~/opt/anaconda3/etc/profile.d/conda.sh
 conda activate /opt/homebrew/Caskroom/miniforge/base/envs/opencv
 pip install opencv-python
 conda deactivate
-
-
+#Tensorflow
+#brew install --build-from-source libtensorflow
+#pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.8.0-py3-none-any.whl

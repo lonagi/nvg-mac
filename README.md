@@ -54,6 +54,7 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 18. Miniforge3
 19. Spotify
 20. VNC Viewer
+21. Steam
 
 Set in phpmyadmin/config.inc.php:  
 ```
