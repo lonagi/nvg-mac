@@ -53,7 +53,18 @@ cd /tmp/scipy
 python3 setup.py build & python3 setup.py install
 cd ~
 rm -rf /tmp/pandas /tmp/scipy
-pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper pywebview
+pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper pywebview tesseract protobuf==3.8.0 jupyter jupyter_contrib_nbextensions 
+nvg install tesseract
+
+#Jupyter
+jupyter contrib nbextension install --user
+jupyter nbextension enable freeze/main
+jupyter nbextension enable scroll_down/main
+jupyter nbextension enable varInspector/main
+jupyter nbextension enable execute_time/ExecuteTime
+jupyter nbextension enable toggle_all_line_numbers/main
+jupyter nbextension enable scratchpad/main
+
 #OpenCV
 conda create --name opencv
 source ~/opt/anaconda3/etc/profile.d/conda.sh
