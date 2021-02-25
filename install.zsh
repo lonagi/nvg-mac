@@ -11,6 +11,7 @@ echo '\nalias ls="ls -aLF"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 echo '\nalias python38="/opt/homebrew/opt/python@3.8/bin/python3"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 echo '\nalias pip38="/opt/homebrew/opt/python@3.8/bin/pip3"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 rm -rf ~/.zsh/.zshrc.d/90-colorize.zsh
+
 echo '\nalias grep="grep --color"' >> ~/.zsh/.zshrc.d/90-colorize.zsh
 nvg install coreutils
 sudo xcodebuild -license accept
@@ -42,7 +43,7 @@ npm install -g svgo
 
 #Python
 #Install https://www.python.org/downloads/release/python-379/
-pip3 install notebook==5.7.8 pybind11
+pip3 install pybind11
 pip3 install --upgrade pyinstaller
 nvg install numpy miniforge python@3.8
 #softwareupdate --install-rosetta
@@ -53,7 +54,7 @@ cd /tmp/scipy
 python3 setup.py build & python3 setup.py install
 cd ~
 rm -rf /tmp/pandas /tmp/scipy
-pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper pywebview tesseract protobuf==3.8.0 jupyter jupyter_contrib_nbextensions 
+pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper pywebview tesseract protobuf==3.8.0 selenium webdriver_manager
 nvg install tesseract
 
 #Jupyter
@@ -61,6 +62,8 @@ git clone https://github.com/lonagi/fsociety /tmp/jup
 cd /tmp/jup/13.\ Py/jupyter
 chmod +x install.sh
 ./install.sh
+echo '\nalias jup="nohup jupyter-notebook --config=jupconfig.py &
+"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 
 #OpenCV
 conda create --name opencv
