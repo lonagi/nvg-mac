@@ -62,3 +62,9 @@ Set in phpmyadmin/config.inc.php:
 $cfg['Servers'][$i]['host'] = '127.0.0.1';
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
 ```
+
+### Some shortkeys
+Ctrl + A  Go to the beginning of the line you're currently typing on  
+Ctrl + E  Go to the end of the line you're currently typing on  
+Ctrl + U  Clear the line before the cursor  
+Ctrl + K  Clear the line after the cursor  
