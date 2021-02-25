@@ -57,13 +57,10 @@ pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connect
 nvg install tesseract
 
 #Jupyter
-jupyter contrib nbextension install --user
-jupyter nbextension enable freeze/main
-jupyter nbextension enable scroll_down/main
-jupyter nbextension enable varInspector/main
-jupyter nbextension enable execute_time/ExecuteTime
-jupyter nbextension enable toggle_all_line_numbers/main
-jupyter nbextension enable scratchpad/main
+git clone https://github.com/lonagi/fsociety /tmp/jup
+cd /tmp/jup/13.\ Py/jupyter
+chmod +x install.sh
+./install.sh
 
 #OpenCV
 conda create --name opencv
