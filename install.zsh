@@ -41,9 +41,10 @@ nvg install node
 npm install -g svgo
 
 #Python
+#Install https://www.python.org/downloads/release/python-379/
 pip3 install notebook==5.7.8 pybind11
 pip3 install --upgrade pyinstaller
-nvg install numpy miniforge
+nvg install numpy miniforge python@3.8
 #softwareupdate --install-rosetta
 git clone https://github.com/pandas-dev/pandas /tmp/pandas
 git clone https://github.com/scipy/scipy.git /tmp/scipy
@@ -52,7 +53,7 @@ cd /tmp/scipy
 python3 setup.py build & python3 setup.py install
 cd ~
 rm -rf /tmp/pandas /tmp/scipy
-pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper
+pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper pywebview
 #OpenCV
 conda create --name opencv
 source ~/opt/anaconda3/etc/profile.d/conda.sh
