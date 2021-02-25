@@ -55,6 +55,7 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 19. Spotify
 20. VNC Viewer
 21. Steam
+22. Disk Sensei
 
 Set in phpmyadmin/config.inc.php:  
 ```
