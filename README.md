@@ -64,7 +64,18 @@ $cfg['Servers'][$i]['AllowNoPassword'] = true;
 ```
 
 ### Some shortkeys
-Ctrl + A  Go to the beginning of the line you're currently typing on  
-Ctrl + E  Go to the end of the line you're currently typing on  
-Ctrl + U  Clear the line before the cursor  
-Ctrl + K  Clear the line after the cursor  
+#### Terminal
+`Ctrl + A`  Go to the beginning of the line you're currently typing on  
+`Ctrl + E`  Go to the end of the line you're currently typing on  
+`Ctrl + U`  Clear the line before the cursor  
+`Ctrl + K`  Clear the line after the cursor  
+
+#### General
+`Fn + Backspace`  (WinDelete)
+
+#### Browser
+`Shift + Cmd + T`  Return a tab
+`Cmd + T`  New tab
+`Cmd + R`  Refresh
+`Cmd + Opt + J`  Developer Tool
+`Cmd + Opt + U`  Page code
