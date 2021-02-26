@@ -71,11 +71,11 @@ $cfg['Servers'][$i]['AllowNoPassword'] = true;
 `Ctrl + K`  Clear the line after the cursor  
 
 #### General
-`Fn + Backspace`  (WinDelete)
+`Fn + Backspace`  (WinDelete)  
 
 #### Browser
-`Shift + Cmd + T`  Return a tab
-`Cmd + T`  New tab
-`Cmd + R`  Refresh
-`Cmd + Opt + J`  Developer Tool
-`Cmd + Opt + U`  Page code
+`Shift + Cmd + T`  Return a tab  
+`Cmd + T`  New tab  
+`Cmd + R`  Refresh  
+`Cmd + Opt + J`  Developer Tool  
+`Cmd + Opt + U`  Page code  
