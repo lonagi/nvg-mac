@@ -79,3 +79,4 @@ $cfg['Servers'][$i]['AllowNoPassword'] = true;
 `Cmd + R`  Refresh  
 `Cmd + Opt + J`  Developer Tool  
 `Cmd + Opt + U`  Page code  
+`Cmd + Ctrl + F`  Fullscreen page  
