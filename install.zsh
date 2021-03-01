@@ -26,6 +26,7 @@ echo 'cat /etc/motd.sh | lolcat' >> ~/.zsh/.zshrc
 
 #PHP
 nvg install php pkg-config zlib mysql
+#nvg install shivammathur/php/php@7.4
 sudo wget "https://raw.githubusercontent.com/lonagi/fsociety/master/12.%20Configs/php.ini" -O /etc/php.ini
 sudo mv composer.phar /usr/local/bin/composer
 curl -sS https://getcomposer.org/installer | php
