@@ -55,7 +55,7 @@ cd /tmp/scipy
 python3 setup.py build & python3 setup.py install
 cd ~
 rm -rf /tmp/pandas /tmp/scipy
-pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper pywebview tesseract protobuf==3.8.0 selenium webdriver_manager docutils pyautogui pyscreenshot flask
+pip3 install matplotlib pytesseract Pillow beautifulsoup4 html5lib mysql-connector-python sk-video scikit-image ImageHash virtualenv virtualenvwrapper pywebview tesseract protobuf==3.8.0 selenium webdriver_manager docutils pyautogui pyscreenshot flask twine
 nvg install tesseract
 
 #Jupyter
