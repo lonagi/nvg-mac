@@ -11,7 +11,7 @@ sudo install.zsh
 
 ### Keys
 
-Parallels:  
+Parallels (Technical Preview only):  
 `QBP4PG-5SMPTH-KCMPVR-NE2S47-429DSZ`  
 
 ### Manual Addition
