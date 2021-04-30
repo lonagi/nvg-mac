@@ -7,6 +7,7 @@ zsh <(curl -Ls https://git.modder.pw/mcmodder/dotfiles-patches/raw/master/instal
 echo "\nexport PATH=/opt/homebrew/bin:$PATH" >> ~/.zsh/.zshrc.d/30-zsh.zsh
 echo "\nexport PATH=~/opt/anaconda3/bin:$PATH" >> ~/.zsh/.zshrc.d/30-zsh.zsh
 echo '\nalias nvg="brew"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
+echo '\nalias jupyterka="nohup jupyter-notebook --config=jupconfig.py &"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 echo '\nalias ls="ls -aLF"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 echo '\nalias python38="/opt/homebrew/opt/python@3.8/bin/python3"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
 echo '\nalias pip38="/opt/homebrew/opt/python@3.8/bin/pip3"' >> ~/.zsh/.zshrc.d/90-aliases.zsh
