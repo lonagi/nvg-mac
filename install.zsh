@@ -18,7 +18,7 @@ nvg install coreutils
 sudo xcodebuild -license accept
 
 #Instal some soft
-nvg install curl htop neofetch lolcat cmake python3 ffmpeg unzip wget
+nvg install curl htop neofetch lolcat cmake python3 ffmpeg unzip wget telnet
 pip3 install weboa
 
 #Beatf & cfgs
